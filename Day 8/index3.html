@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 0;
+        }
+        nav {
+            height: 10vh;
+            text-align: right;
+            padding-right: 50px;
+            overflow: hidden;
+            min-width: 1400px;
+        }
+        a {
+            box-sizing: border-box;
+            line-height: 10vh;
+            width: 10vw;
+            margin: 30px;
+            color: black;
+            font-size: 24px;
+            font-family: arial;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        .one {
+            width: auto;
+            padding: 15px;
+            margin: 0 200px 0 80px;
+            border: 2px solid gray;
+            transition: 0.2s;
+        }
+        .one:hover{
+            background-color: brown;
+        }
+        div.image {
+            height: 35vh;
+            background-image: url(auto1.jpg);
+            background-size: cover;
+        }
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 36vh;
+            text-align: center;
+            font-size: 36px;
+            color: white;
+        }
+        .text {
+            height: 10vh;
+            background-color: gray;
+        }
+        .text p {
+            text-align: center;
+            line-height: 10vh;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            color: black;
+        }
+        .wrapper {
+            text-align: center;
+            height: 35vh;
+            overflow: hidden;
+        }
+        .wrapper div {
+            display: inline-block;
+            margin: 100px 60px;
+            height: 18vh;
+            width: 22vh;
+            background-color: blue;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 45vh;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+        footer {
+            height: 10vh;
+            background-color: black;
+        }
+        footer p {
+            line-height: 10vh;
+            text-align: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Naprawy</a>
+        <a href="#">Czesci</a>
+        <a href="#">Holowanie</a>
+        <a href="#" class="one">Umow wizyte</a>
+    </nav>
+    <div class="image">
+        <h1>Tanio szybko srednio</h1>
+    </div>
+    <div class="text">
+        <p>Nasz warszat jest najlepszy Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="wrapper">
+        <div>Poprawianie licznikow</div>
+        <div>Czesci po recyklingu </div>
+        <div>Naprawianie usterek</div>
+    </div>
+    <footer>
+        <p>&copy Warsztat "Fura"- najlepszy warsztat lorem lorem</p>
+    </footer>
+</body>
+</html>
