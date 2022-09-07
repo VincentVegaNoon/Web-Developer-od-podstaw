@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.start {
+    height: 25vh;
+
+}
+
+.start div {
+    display: inline-block;
+    margin: 2vh 2vw 0 2vw;
+    height: 20vh;
+    width: 20vw;
+    background-color: yellow;
+}
+
+.one:hover {
+    background-color: red;
+}
+
+.two:hover {
+    background-color: gray;
+}
+
+.three:hover {
+    background-color: brown;
+}
+
+.four:hover {
+    background-color: blue;
+}
+
+nav {
+    height: 5vh;
+    width: 100vw;
+    background-color: darkgray;
+    margin-bottom: 40px;
+}
+
+nav a {
+    box-sizing: border-box;
+    line-height: 5vh;
+    width: 10vw;
+    margin: 30px;
+    padding: 10px 65px;
+    color: white;
+    background-color: darkslategray;
+    font-size: 24px;
+    font-family: arial;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid white;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+div.blog {
+    margin-top: 40px;
+}
+main {
+    float: left;
+    width: 65%;
+    padding: 0 20px 0 20px;
+}
+
+article img {
+    width: 200px;
+    float: left;
+    margin: 20px;
+    padding: 40px 20px 20 0;
+}
+article p {
+    margin-top: 20px;
+}
+
+aside {
+    float: left;
+    width: 25%;
+}
+section.contact {
+    background-color: #ddd;
+    padding: 15px 10px;
+}
+section.contact p {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+section.contact ul {
+    list-style: none;
+}
+
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
