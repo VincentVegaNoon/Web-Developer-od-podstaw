@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            visibility: hidden;
+            position: absolute;
+        }
+        @media (max-width: 259px) {
+            .item1 {
+                width: 100vw;
+                height: 100vh;
+                background-color: red;
+                visibility: visible;
+                font-size: 16px;
+            }
+        }
+        @media (min-width: 260px) {
+            .item2 {
+                width: 100vw;
+                height: 100vh;
+                background-color: green;
+                visibility: visible;
+                font-size: 24px;
+            }
+        }
+        @media (min-width: 640px) {
+            .item3 {
+                width: 100vw;
+                height: 100vh;
+                background-color: blue;
+                visibility: visible;
+                font-size: 40px;
+            }
+        }
+        @media (min-width: 1024px) {
+            .item4 {
+                width: 100vw;
+                height: 100vh;
+                background-color: gray;
+                visibility: visible;
+                font-size: 60px;
+            }
+        }
+        @media (min-width: 1400px) {
+            .item5 {
+                width: 100vw;
+                height: 100vh;
+                background-color: gray;
+                visibility: visible;
+                border: 10px solid blue;
+                font-size: 60px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="item1">Ekran ma do 259px i kolor czerwony</div>
+    <div class="item2">Ekran ma miedzy 260px a 639px i kolor zielony</div>
+    <div class="item3">Ekran ma od 640px do 1023px i kolor niebieski</div>
+    <div class="item4">Ekran ma od 1024px do 1400px i kolor szary</div>
+    <div class="item5">Ekran ma co najmniej 1400px i niebieski border na body</div>
+</body>
+</html>
